@@ -1,0 +1,130 @@
+.create-post-page {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.create-post-card {
+  animation: slideUp 0.3s ease;
+}
+
+.create-post-card .card-header {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.create-post-card .card-header h1 {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.create-post-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-post-content {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.create-post-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.create-post-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.create-post-textarea {
+  flex: 1;
+  border: none;
+  padding: 0;
+  resize: none;
+  min-height: 100px;
+}
+
+.create-post-textarea:focus {
+  box-shadow: none;
+}
+
+.create-post-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.create-post-image-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: var(--border-radius);
+  color: var(--primary);
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.create-post-image-btn:hover {
+  background: var(--primary-light);
+}
+
+.create-post-image-btn svg {
+  color: var(--primary);
+}
+
+.create-post-submit .btn {
+  min-width: 120px;
+}
+
+.create-post-image-preview {
+  position: relative;
+  margin-bottom: 1rem;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+}
+
+.create-post-image-preview img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.remove-image-btn {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.remove-image-btn:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
