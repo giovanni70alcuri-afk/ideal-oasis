@@ -1,1 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>il tutto fai da te | angelo cacioppo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
 
+<header>
+    <div class="logo-centrale">il tutto fai da te</div>
+</header>
+
+<!-- sidebar sinistra -->
+<nav class="sidebar-left" id="sidebar-left-container">
+    <div class="menu-section">
+        <a href="javascript:location.reload()" class="nav-item">
+            <i class="fas fa-home"></i> home
+        </a>
+        
+        <div class="nav-item-dropdown">
+            <a href="#" class="nav-item">
+                <i class="fas fa-play-circle"></i> video
+                <i class="fas fa-chevron-right" style="font-size:0.7rem; float:right;"></i>
+            </a>
+            <div class="dropdown-content">
+                <a href="#" onclick="mostraCategoria('video')">video hi-fi</a>
+                <a href="#" onclick="mostraCategoria('restauro')">restauro</a>
+                <a href="#" onclick="mostraCategoria('elettronica')">elettronica</a>
+                <a href="#" onclick="mostraCategoria('recensioni_attrezzi')">recensioni attrezzi</a>
+                <a href="#" onclick="mostraCategoria('deposito_progetti')">deposito progetti</a>
+                <a href="#" onclick="mostraCategoria('faidate')">fai da te</a>
+            </div>
+        </div>
+
+        <div class="nav-item-dropdown">
+            <a href="#" class="nav-item">
+                <i class="fas fa-book"></i> libri
+                <i class="fas fa-chevron-right" style="font-size:0.7rem; float:right;"></i>
+            </a>
+            <div class="dropdown-content">
+                <a href="#" onclick="mostraCategoria('libri')">tutti i libri</a>
+            </div>
+        </div>
+
+        <a href="#" class="nav-item" onclick="mostraCategoria('contatti')">
+            <i class="fas fa-envelope"></i> contatti
+        </a>
+    </div>
+</nav>
+
+<!-- carosello libri -->
+<div class="carosello-container">
+    <div class="slider-track" id="track-libri"></div>
+</div>
+
+<main class="main-layout">
+    <section class="content-left">
+        <h1 id="titolo-sezione">benvenuti nel laboratorio</h1>
+        <div id="prodotti-lista"></div>
+    </section>
+
+    <!-- sidebar destra -->
+    <aside class="sidebar-right" id="sidebar-sticky-container"></aside>
+</main>
+
+<footer id="footer-sito"></footer>
+
+<!-- chat -->
+<div class="chat-box">
+    <div id="chat-display"></div>
+    <input id="user-input" placeholder="scrivi..." />
+    <button onclick="inviaMessaggio()">invia</button>
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
