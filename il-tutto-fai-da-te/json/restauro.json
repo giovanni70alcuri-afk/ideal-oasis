@@ -1,0 +1,22 @@
+{
+  "restauro": [
+    {
+      "titolo": "Restauro Amplificatore Marantz",
+      "descrizione": "Restauro completo di un amplificatore Marantz degli anni '80. Sostituzione condensatori, pulizia circuiti e test funzionamento.",
+      "link": "#",
+      "data": "2024-01-20"
+    },
+    {
+      "titolo": "Riparazione Giradischi Technics",
+      "descrizione": "Restauro di un giradischi Technics SL-1200. Sostituzione cuscinetti, regolazione braccio e taratura.",
+      "link": "#",
+      "data": "2024-01-18"
+    },
+    {
+      "titolo": "Restauro Preamplificatore Vintage",
+      "descrizione": "Recupero completo di un preamplificatore vintage. Diagnostica, riparazione e messa a punto.",
+      "link": "#",
+      "data": "2024-01-15"
+    }
+  ]
+}

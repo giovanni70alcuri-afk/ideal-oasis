@@ -1,0 +1,11 @@
+{
+  "ciao": "ciao angelo! benvenuto nel tuo laboratorio digitale.",
+  "libri": "trovi tutti i miei libri nel carosello o cliccando su 'libri' nel menu.",
+  "amazon": "trovi tutti i libri nel carosello o su amazon.",
+  "restauro": "puoi vedere i progetti di restauro nella sezione corrispondente.",
+  "elettronica": "puoi vedere i progetti elettronici nella sezione corrispondente.",
+  "video": "guarda i miei video nel menu 'video'.",
+  "contatti": "puoi scrivermi tramite email o sui social.",
+  "aiuto": "scrivi: libri, restauro, elettronica, video o contatti.",
+  "default": "scrivi: libri, restauro, elettronica, video o contatti."
+}

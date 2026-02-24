@@ -1,0 +1,22 @@
+{
+  "elettronica": [
+    {
+      "titolo": "Amplificatore DIY da 50W",
+      "descrizione": "Progetto completo per costruire un amplificatore audio da 50W. Schema circuitale, lista componenti e montaggio passo passo.",
+      "link": "#",
+      "data": "2024-01-22"
+    },
+    {
+      "titolo": "Preamp Phono Artigianale",
+      "descrizione": "Come costruire un preamplificatore phono di qualità. Ideale per giradischi vintage.",
+      "link": "#",
+      "data": "2024-01-19"
+    },
+    {
+      "titolo": "Equalizzatore Audio Parametrico",
+      "descrizione": "Progetto di un equalizzatore parametrico a 5 bande. Perfetto per chi vuole controllare il suono.",
+      "link": "#",
+      "data": "2024-01-16"
+    }
+  ]
+}

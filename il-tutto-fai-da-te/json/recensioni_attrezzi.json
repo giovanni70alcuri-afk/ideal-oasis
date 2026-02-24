@@ -1,0 +1,25 @@
+{
+  "recensioni_attrezzi": [
+    {
+      "titolo": "Multimetro Digitale Fluke 87V",
+      "descrizione": "Recensione completa del multimetro Fluke 87V. Precisione, affidabilità e durabilità nel tempo.",
+      "link": "https://www.amazon.it/",
+      "data": "2024-01-21",
+      "voto": 5
+    },
+    {
+      "titolo": "Saldatore Stazione JBC",
+      "descrizione": "Analisi approfondita della stazione di saldatura JBC. Ideale per lavori di precisione.",
+      "link": "https://www.amazon.it/",
+      "data": "2024-01-17",
+      "voto": 5
+    },
+    {
+      "titolo": "Oscilloscopio Rigol DS1054Z",
+      "descrizione": "Prova pratica dell'oscilloscopio Rigol. Prestazioni eccellenti a prezzo contenuto.",
+      "link": "https://www.amazon.it/",
+      "data": "2024-01-14",
+      "voto": 4
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "faidate": [
+    {
+      "titolo": "Costruire una Cassetta Attrezzi in Legno",
+      "descrizione": "Tutorial passo passo per costruire una cassetta attrezzi in legno. Materiali, attrezzi necessari e montaggio.",
+      "link": "#",
+      "data": "2024-01-23"
+    },
+    {
+      "titolo": "Scaffale Modulare Fai Da Te",
+      "descrizione": "Come costruire uno scaffale modulare in legno. Perfetto per organizzare il laboratorio.",
+      "link": "#",
+      "data": "2024-01-21"
+    },
+    {
+      "titolo": "Banco da Lavoro Professionale",
+      "descrizione": "Progetto completo per un banco da lavoro robusto e funzionale. Ideale per ogni tipo di lavoro.",
+      "link": "#",
+      "data": "2024-01-19"
+    }
+  ]
+}

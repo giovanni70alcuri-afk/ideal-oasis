@@ -1,0 +1,25 @@
+{
+  "deposito_progetti": [
+    {
+      "titolo": "Progetto Impianto Hi-Fi Car",
+      "descrizione": "Documentazione completa dell'installazione di un impianto hi-fi in auto. Scelta componenti, cablaggio e taratura.",
+      "link": "#",
+      "data": "2024-01-20",
+      "categoria": "automotive"
+    },
+    {
+      "titolo": "Costruzione Cabinet Acustico",
+      "descrizione": "Guida al progetto e costruzione di un cabinet acustico per speaker. Calcoli, materiali e assemblaggio.",
+      "link": "#",
+      "data": "2024-01-18",
+      "categoria": "audio"
+    },
+    {
+      "titolo": "Laboratorio Elettronica Fai Da Te",
+      "descrizione": "Come allestire un laboratorio di elettronica in casa. Attrezzi essenziali e organizzazione dello spazio.",
+      "link": "#",
+      "data": "2024-01-15",
+      "categoria": "laboratorio"
+    }
+  ]
+}

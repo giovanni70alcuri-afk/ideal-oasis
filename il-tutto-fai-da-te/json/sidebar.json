@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "funzione": "IMPIANTI_JIMBO",
+        "attivo": true,
+        "immagine": "https://via.placeholder.com/200x300?text=Progetti+Hi-Fi",
+        "link": "https://iltuttofaidate.jimdofree.com/",
+        "descrizione": "progetti hi-fi car"
+    },
+    {
+        "id": 2,
+        "funzione": "SHOP_MAGLIETTE",
+        "attivo": true,
+        "immagine": "https://via.placeholder.com/200x300?text=Shop+Magliette",
+        "link": "#",
+        "descrizione": "la mia maglietta"
+    }
+]
