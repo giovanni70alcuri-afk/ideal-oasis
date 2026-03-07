@@ -1,0 +1,22 @@
+.local-page { max-width:800px; margin:0 auto; display:flex; flex-direction:column; gap:1.25rem; }
+.local-header h1 { font-family:'Syne'; font-weight:800; font-size:1.5rem; display:flex; align-items:center; gap:0.5rem; margin-bottom:0.25rem; }
+.local-header p { color:var(--text2); font-size:0.88rem; }
+.local-search { padding:1rem 1.25rem; border-radius:var(--r2); }
+.local-search-inner { display:flex; align-items:center; gap:0.75rem; }
+.local-search-icon { color:var(--accent); flex-shrink:0; }
+.local-input { flex:1; border:none; background:transparent; color:var(--text); font-size:0.95rem; font-family:'DM Sans'; }
+.local-input::placeholder { color:var(--text3); }
+.local-input:focus { outline:none; }
+.local-empty { display:flex; flex-direction:column; align-items:center; gap:0.75rem; padding:3rem; text-align:center; color:var(--text2); border-radius:var(--r2); }
+.local-results-label { font-size:0.88rem; color:var(--text2); margin-bottom:0.875rem; }
+.local-results-label strong { color:var(--text); }
+.local-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1rem; }
+.local-post { padding:1rem; border-radius:var(--r2); }
+.local-post-head { display:flex; align-items:center; gap:0.6rem; margin-bottom:0.75rem; }
+.local-post-name { font-family:'Syne'; font-weight:700; font-size:0.85rem; color:var(--text); }
+.local-post-loc { display:flex; align-items:center; gap:0.25rem; font-size:0.73rem; color:var(--accent); }
+.local-post-img { width:100%; border-radius:10px; max-height:200px; object-fit:cover; margin-bottom:0.625rem; }
+.local-post-text { font-size:0.88rem; color:var(--text2); line-height:1.5; }
+.local-intro { display:flex; gap:0.625rem; flex-wrap:wrap; }
+.local-city-chip { display:flex; align-items:center; gap:0.35rem; padding:0.5rem 1rem; border-radius:20px; border:1px solid var(--border2); background:var(--glass); color:var(--text2); font-size:0.85rem; cursor:pointer; transition:var(--trans); }
+.local-city-chip:hover { background:rgba(124,106,255,0.1); color:var(--accent); border-color:rgba(124,106,255,0.3); }

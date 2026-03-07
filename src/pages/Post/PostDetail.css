@@ -1,0 +1,29 @@
+.post-detail-page { max-width:680px; margin:0 auto; display:flex; flex-direction:column; gap:1.25rem; }
+.post-detail-back { display:inline-flex; align-items:center; gap:0.4rem; color:var(--text2); font-size:0.88rem; font-weight:600; transition:var(--trans); }
+.post-detail-back:hover { color:var(--accent); }
+.post-detail-main { border-radius:var(--r2); overflow:hidden; }
+.pd-head { padding:1rem 1.25rem; border-bottom:1px solid var(--border); }
+.pd-author { display:flex; align-items:center; gap:0.75rem; text-decoration:none; }
+.pd-name { font-family:'Syne'; font-weight:700; font-size:0.9rem; color:var(--text); }
+.pd-time { font-size:0.75rem; color:var(--text3); }
+.pd-body { padding:1.25rem; }
+.pd-text { font-size:1.05rem; line-height:1.7; white-space:pre-wrap; word-break:break-word; }
+.pd-img { width:100%; border-radius:var(--r); margin-top:1rem; max-height:600px; object-fit:cover; }
+.pd-actions { display:flex; gap:0.5rem; padding:0.75rem 1rem; border-top:1px solid var(--border); }
+.pd-comments h3 { font-family:'Syne'; font-weight:700; font-size:1rem; margin-bottom:1rem; color:var(--text); }
+.pd-comment-form { display:flex; align-items:center; gap:0.75rem; margin-bottom:1.5rem; }
+.pd-comment-input { flex:1; background:rgba(255,255,255,0.05); border:1px solid var(--border2); border-radius:var(--r); padding:0.65rem 1rem; color:var(--text); font-size:0.9rem; font-family:'DM Sans'; transition:var(--trans); }
+.pd-comment-input:focus { outline:none; border-color:var(--accent); background:rgba(124,106,255,0.07); }
+.pd-login-prompt { color:var(--text2); font-size:0.9rem; margin-bottom:1rem; }
+.pd-login-prompt a { color:var(--accent); font-weight:600; }
+.pd-comments-list { display:flex; flex-direction:column; gap:0.875rem; }
+.pd-comment { display:flex; align-items:flex-start; gap:0.75rem; }
+.pd-comment-body { flex:1; background:var(--glass2); border-radius:var(--r); padding:0.75rem 1rem; }
+.pd-comment-header { display:flex; align-items:center; gap:0.5rem; margin-bottom:0.25rem; }
+.pd-comment-name { font-family:'Syne'; font-weight:700; font-size:0.83rem; color:var(--text); text-decoration:none; }
+.pd-comment-name:hover { color:var(--accent); }
+.pd-comment-time { font-size:0.72rem; color:var(--text3); }
+.pd-comment-text { font-size:0.9rem; color:var(--text); line-height:1.5; }
+.pd-comment-del { background:none; border:none; color:var(--text3); cursor:pointer; padding:0.25rem; transition:var(--trans); }
+.pd-comment-del:hover { color:var(--danger); }
+.pd-no-comments { text-align:center; color:var(--text3); padding:2rem; font-size:0.9rem; }

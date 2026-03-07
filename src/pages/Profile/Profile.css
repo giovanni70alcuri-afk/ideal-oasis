@@ -1,0 +1,27 @@
+.profile-page { display:flex; flex-direction:column; gap:1.25rem; }
+.profile-header { overflow:visible; border-radius:var(--r2); }
+.profile-cover { height:160px; position:relative; border-radius:var(--r2) var(--r2) 0 0; overflow:hidden; }
+.profile-cover-img { width:100%; height:100%; object-fit:cover; }
+.profile-cover-placeholder { width:100%; height:100%; background:linear-gradient(135deg,rgba(124,106,255,0.2),rgba(255,106,205,0.15)); }
+.profile-header-body { padding:0 1.5rem 1.5rem; }
+.profile-avatar-wrap { margin-top:-44px; margin-bottom:0.75rem; }
+.profile-avatar { border:3px solid var(--bg); box-shadow:0 0 0 2px var(--accent); }
+.profile-header-actions { display:flex; gap:0.75rem; margin-bottom:1rem; justify-content:flex-end; margin-top:-2.5rem; }
+.profile-name { font-family:'Syne'; font-weight:800; font-size:1.4rem; color:var(--text); }
+.profile-handle { color:var(--text3); font-size:0.9rem; margin-bottom:0.6rem; }
+.profile-bio { color:var(--text2); font-size:0.92rem; line-height:1.6; margin-bottom:0.75rem; }
+.profile-meta { display:flex; flex-wrap:wrap; gap:0.75rem; margin-bottom:1rem; }
+.profile-meta-item { display:flex; align-items:center; gap:0.35rem; font-size:0.82rem; color:var(--text3); }
+.profile-meta-item.link { color:var(--accent); text-decoration:none; }
+.profile-meta-item.link:hover { text-decoration:underline; }
+.profile-stats { display:flex; gap:1.75rem; }
+.profile-stat { display:flex; flex-direction:column; align-items:center; gap:0.1rem; }
+.stat-val { font-family:'Syne'; font-weight:800; font-size:1.2rem; color:var(--text); }
+.stat-lbl { font-size:0.75rem; color:var(--text3); }
+.profile-edit { padding:1.5rem; border-radius:var(--r2); }
+.profile-edit-title { font-family:'Syne'; font-weight:700; font-size:1rem; margin-bottom:1.25rem; color:var(--text); }
+.profile-edit-grid { display:grid; grid-template-columns:1fr 1fr; gap:1rem; }
+.profile-edit-grid .input-wrap.full { grid-column:1/-1; }
+.profile-edit-actions { margin-top:1.25rem; display:flex; justify-content:flex-end; }
+.profile-posts-title { font-family:'Syne'; font-weight:700; font-size:1rem; color:var(--text2); padding:0 0.25rem; }
+@media(max-width:640px){ .profile-edit-grid { grid-template-columns:1fr; } }

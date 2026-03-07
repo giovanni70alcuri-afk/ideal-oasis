@@ -1,0 +1,54 @@
+.post-card { margin-bottom:1rem; transition:var(--trans); }
+.post-card:hover { border-color:var(--border2); box-shadow:0 8px 32px rgba(0,0,0,0.4); }
+
+.post-head {
+  display:flex; align-items:center; justify-content:space-between;
+  padding:1rem 1.25rem; border-bottom:1px solid var(--border);
+}
+.post-author { display:flex; align-items:center; gap:0.75rem; text-decoration:none; }
+.post-author-name { font-family:'Syne'; font-weight:700; font-size:0.9rem; color:var(--text); }
+.post-time { font-size:0.75rem; color:var(--text3); }
+
+.post-menu-wrap { position:relative; }
+.post-more {
+  width:32px; height:32px; border-radius:8px; border:none;
+  background:transparent; color:var(--text3); cursor:pointer;
+  display:flex; align-items:center; justify-content:center; transition:var(--trans);
+}
+.post-more:hover { background:var(--glass2); color:var(--text); }
+.post-menu {
+  position:absolute; top:calc(100%+6px); right:0; min-width:160px;
+  border-radius:var(--r); z-index:50; padding:0.4rem;
+  animation:slideUp 0.15s ease;
+}
+.post-menu-item {
+  display:flex; align-items:center; gap:0.5rem;
+  padding:0.6rem 0.75rem; border-radius:8px; width:100%;
+  font-size:0.85rem; color:var(--text2); cursor:pointer; background:none; border:none;
+  text-decoration:none; transition:var(--trans); font-family:'DM Sans';
+}
+.post-menu-item:hover { background:var(--glass2); color:var(--text); }
+.post-menu-item.danger { color:var(--danger); }
+.post-menu-item.danger:hover { background:rgba(255,77,106,0.1); }
+
+.post-body { padding:1rem 1.25rem; }
+.post-text { font-size:0.95rem; line-height:1.65; color:var(--text); white-space:pre-wrap; word-break:break-word; }
+.post-img-wrap { display:block; margin-top:0.875rem; border-radius:var(--r); overflow:hidden; }
+.post-img { width:100%; max-height:520px; object-fit:cover; display:block; transition:var(--trans); }
+.post-img:hover { transform:scale(1.01); }
+
+.post-actions {
+  display:flex; align-items:center; gap:0.25rem;
+  padding:0.6rem 1rem; border-top:1px solid var(--border);
+}
+.post-action {
+  display:flex; align-items:center; gap:0.35rem;
+  padding:0.45rem 0.65rem; border-radius:10px; border:none; background:transparent;
+  color:var(--text2); font-size:0.85rem; font-weight:500; cursor:pointer;
+  transition:var(--trans); text-decoration:none; font-family:'DM Sans';
+}
+.post-action:hover { background:var(--glass2); color:var(--text); }
+.post-action.liked { color:var(--danger); }
+.post-action.liked:hover { background:rgba(255,77,106,0.1); }
+.post-action.saved { color:var(--accent); }
+.post-action-spacer { flex:1; }
